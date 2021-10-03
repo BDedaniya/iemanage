@@ -1,0 +1,47 @@
+.controlbox{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 18px;
+}
+.controlbox div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.tabchanger_btn{
+    font-size: smaller;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: white;
+    color: #9fb5c6;
+    width: 9rem;
+    padding: 8px 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+.tabchanger_btn-active{
+    background-color: #42d599;
+    color: white;
+}
+.monthchanger_select{
+    font-size:smaller;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: white;
+    width: 9rem;
+    color: #9fb5c6;
+    padding: 8px 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+@media (max-width:800px) {
+    .controlbox div{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+

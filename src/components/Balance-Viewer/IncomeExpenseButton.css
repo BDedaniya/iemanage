@@ -1,0 +1,18 @@
+.income_expense_button_controls{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.income_expense_button_controls button{
+    border: 0px;
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.income_expense_button_controls .income_btn{
+    background-color: #42d599;
+}
+.income_expense_button_controls .expense_btn{
+    background-color: #eebd6a;
+}

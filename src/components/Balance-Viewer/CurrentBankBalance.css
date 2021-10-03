@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.currentbankbalance{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.currentbankbalance h1 , .currentbankbalance h6{
+    font-family: Poppins;
+    font-weight: 600;
+    margin: 0px;
+    color: blue;
+}

@@ -1,0 +1,59 @@
+.incomeheader{
+    float: left;
+    height: auto;
+    width: 100%;
+    padding: 15px 20px 10px;
+    background-color: #e4e8eb;
+    font-family: Poppins;
+    color: #132038;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.incomeheader__data{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+.incomeheader__data h4{
+    margin: 0px;
+    font-weight: 600;
+}
+.incomeheader__filter{
+    height: auto;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.incomeheader__filter input{
+    height: auto;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: auto;
+    font-size: small;
+    
+}
+.incomeheader__filter input:focus{
+    outline: none !important;
+    box-shadow: 0px 2px 5px blue;
+    color: blue;
+}
+
+@media (max-width:1250px){
+    .incomeheader{
+        padding-bottom: 5px;
+    }
+    .incomeheader__filter{
+        display: inline-block;
+        box-sizing: content-box;
+    }
+    .incomeheader__filter input{
+        margin: 5px 10px 5px 0px;
+        width: 46%;
+        float: inline-start;
+    }
+}

@@ -1,0 +1,109 @@
+.card{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 0px;
+    border-bottom: 1px solid #e4e8eb;
+    font-family: Poppins;
+}
+.card ul{
+    list-style: none;
+    margin: 20px;
+    padding: 0px;
+}
+.card__part1{
+    width: 70%;
+}
+.card__part2{
+    width: 30%;
+}
+.card .card__part1 ul{
+    text-align: left;
+}
+.card__part2 ul {
+    text-align: end;
+}
+.card__name{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: medium;
+    color: #132038;
+}
+.card__cat__des__date{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: medium;
+    color: #9fb5c6;
+}
+.card__income__amount{
+    color:#42d599;
+    font-weight: 600;
+}
+.card__expense__amount{
+    color:#eebd6a;
+    font-weight: 600;
+}
+.card .card__controls{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px 10px 0px;
+}
+.card .bi-pencil-fill{
+    font-size: 20px;
+    color: rgb(0, 0, 255);
+}
+.card .bi-trash-fill{
+    font-size: 20px;
+    color: red;
+}
+.card .bi-person-square , .card .bi-tags-fill , .card .bi-info-square-fill ,.card .bi-calendar3 , .card .mi-rs{
+    font-size: 20px;
+    margin: 5px;
+    font-style: normal;
+}
+@media (max-width:1180px) {
+    .card{
+        flex-direction: column;
+    }
+    .card__part1 , .card__part2{
+        width: 94%;
+    }
+    .card__part1 ul{
+        margin-bottom: 0px;
+    }
+    .card__part2 ul{
+        text-align: left;
+        margin-top: 0px;
+     }/*
+    .card li{
+        padding: 5px;
+    } */
+    .card .card__controls{
+        position: absolute;
+        top: 0px;
+        right: -5px;
+    }
+    /*
+    .card .bi-pencil-fill{
+        float: right;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: rgb(0, 0, 255);
+    }
+    .card .bi-trash-fill{
+        float: right;
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        font-size: 20px;
+        color: red;
+    } */
+
+}

@@ -1,0 +1,111 @@
+.popupbox{
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(200, 200, 200, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addincomeexpense{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.addincomeexpense_tab{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 2px dashed #9fb5c6;
+    font-size: x-large;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.addincomeexpense ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+}
+.addincomeexpense ul li{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.addincomeexpense ul li label{
+    color:#9fb5c6;
+    font-size: large;
+    font-weight: 500;
+}
+.addincomeexpense ul li input , .addincomeexpense ul li select {
+    font-size:medium;
+    color: #132038;
+    border: 1px solid #9fb5c6;
+    border-radius: 4px;
+    padding: 8px 15px;
+
+}
+.input_date_amount{
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: row !important;
+    align-items: flex-start;
+    width: 100%;
+}
+.input_date_amount_control{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.addincomeexpense .income_expense_button_group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.income_expense_button_group button{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+}
+.income_expense_button_group button:first-child{
+    background-color: #9fb5c6;
+}
+.income_expense_button_group button:last-child{
+    background-color: #42d599;
+}
+@media (max-width:550px) {
+    .addincomeexpense{
+        width: 98%;
+        height: auto;
+    }
+    .input_date_amount{
+        flex-direction: column !important;
+        justify-content: flex-start;
+    }
+    .input_date_amount_control{
+        width: 100% !important;
+    }
+}
+/*
+.addincomeexpense ul li input:focus , .addincomeexpense ul li select:focus {
+    border: 1px solid blue;
+    color: blue;
+} */

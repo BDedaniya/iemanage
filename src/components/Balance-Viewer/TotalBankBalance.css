@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.totalbankbalance{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+.totalbankbalance h1, .totalbankbalance h6{
+    color:#42d599;
+    font-weight: 600;
+    margin: 0px;
+}
